@@ -1,0 +1,3 @@
+modo=seguro
+intentos_maximos=5
+

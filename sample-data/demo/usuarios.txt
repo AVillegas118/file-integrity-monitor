@@ -1,0 +1,3 @@
+alice:analista
+bob:operador
+
