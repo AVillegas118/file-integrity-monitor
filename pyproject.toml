@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-integrity-monitor"
+version = "0.1.0"
+description = "Monitor educativo de integridad de archivos basado en SHA-256"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "AVillegas118" }]
+keywords = ["cybersecurity", "file-integrity", "sha256", "blue-team"]
+
+[project.scripts]
+integrity-monitor = "integrity_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
